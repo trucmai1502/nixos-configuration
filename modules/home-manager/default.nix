@@ -15,6 +15,8 @@
   home.packages = [
     pkgs.anki-bin
     pkgs.discord
+    pkgs.gcc
+    pkgs.htop
     pkgs.obs-studio
     pkgs.mpv
     pkgs.obsidian
@@ -34,6 +36,7 @@
     pkgs.wget
     pkgs.gh
     pkgs.tailscale
+    pkgs.typst
     pkgs.xclip
     pkgs.zip
   ];

@@ -10,7 +10,7 @@
 
   stylix = {
     enable = true;
-    image = /home/${outputs.username}/nix-config/hatsukoinonioi.png;
+    image = /home/${outputs.username}/nix-config/xilmo1.jpg;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/${outputs.theme}.yaml";
 
@@ -41,7 +41,7 @@
       inherit name;
     };
 
-    opacity.terminal = 0.9;
+    opacity.terminal = 0.8;
 
     targets = {
       grub.enable = false;
