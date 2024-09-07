@@ -10,7 +10,7 @@
 
   stylix = {
     enable = true;
-    image = /home/${outputs.username}/nix-config/xilmo1.jpg;
+    image = /home/${outputs.username}/nix-config/hano-flower.jpg;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/${outputs.theme}.yaml";
 
