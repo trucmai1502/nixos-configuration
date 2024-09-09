@@ -6,6 +6,7 @@
     ./git.nix
     ./kde-plasma-5.nix
     ./kitty.nix
+    ./stylix.nix
     #./polybar.nix
     ./qbittorrent.nix
     ./touchegg.nix
@@ -25,6 +26,7 @@
     pkgs.vlc
     pkgs.zed-editor
 
+    pkgs.ani-cli
     pkgs.bluez
     pkgs.devenv
     pkgs.fd
@@ -37,6 +39,7 @@
     pkgs.gh
     pkgs.tailscale
     pkgs.typst
+    pkgs.typst-live
     pkgs.xclip
     pkgs.zip
   ];

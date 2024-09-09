@@ -112,5 +112,6 @@
     treesitter-context.enable = true;
     typst-vim.enable = true;
     which-key.enable = true;
+    neocord.enable = true;
   };
 }

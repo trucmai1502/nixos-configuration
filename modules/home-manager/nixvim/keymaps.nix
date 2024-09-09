@@ -38,5 +38,26 @@
         desc = "Toggle explorer";
       };
     }
+    # Remap arrow keys in insert mode to <C-hjkl>
+    {
+      action = "<Left>";
+      key = "<C-h>";
+      mode = "i";
+    }
+    {
+      action = "<Right>";
+      key = "<C-l>";
+      mode = "i";
+    }
+    {
+      action = "<Up>";
+      key = "<C-k>";
+      mode = "i";
+    }
+    {
+      action = "<Down>";
+      key = "<C-j>";
+      mode = "i";
+    }
   ];
 }
