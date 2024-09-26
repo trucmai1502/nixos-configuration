@@ -11,7 +11,7 @@
     ./i18n-l10n.nix
     # ./ios.nix
     ./networking.nix
-    #./nix-alien.nix
+    ./nix-alien.nix
     #./nvidia-driver.nix
     ./partition-manager.nix
     ./pipewire.nix

@@ -6,7 +6,6 @@
     ./git.nix
     ./kde-plasma-5.nix
     ./kitty.nix
-    ./stylix.nix
     #./polybar.nix
     ./qbittorrent.nix
     ./touchegg.nix
@@ -16,6 +15,7 @@
   home.packages = [
     pkgs.anki-bin
     pkgs.discord
+    pkgs.fastfetch
     pkgs.gcc
     pkgs.htop
     pkgs.obs-studio
@@ -40,8 +40,10 @@
     pkgs.tailscale
     pkgs.typst
     pkgs.typst-live
+    pkgs.tinymist
     pkgs.xclip
     pkgs.zip
+    pkgs.pwndbg
   ];
 
   programs.home-manager.enable = true;
