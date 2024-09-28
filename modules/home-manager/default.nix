@@ -1,5 +1,7 @@
 {pkgs, ...}: {
   imports = [
+    ./DE-env.nix
+    ./rofi.nix
     ./nixvim
     ./firefox.nix
     ./fish.nix
@@ -47,6 +49,5 @@
   ];
 
   programs.home-manager.enable = true;
-
   xsession.numlock.enable = true;
 }
