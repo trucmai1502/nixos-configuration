@@ -1,7 +1,7 @@
 # About
 
-My Nix config directory. Might add documentation later.
+My Nix config directory.
 
-Wallpaper is from the MV [藤原さくら - 初恋のにおい](https://youtu.be/A-rIs-Btey4).
+The wallpaper belongs to [XilmO@夕末](https://www.pixiv.net/en/artworks/94494258)
 
 # nixos-configuration
