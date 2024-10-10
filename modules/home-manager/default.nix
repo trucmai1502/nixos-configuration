@@ -11,7 +11,7 @@
     #./polybar.nix
     ./qbittorrent.nix
     ./touchegg.nix
-    ./vscode.nix
+    ./vscode.nixvim
   ];
 
   home.packages = [
@@ -27,6 +27,7 @@
     pkgs.quickemu
     pkgs.vlc
     pkgs.zed-editor
+    pkgs.jetbrains.pycharm-community
 
     pkgs.ani-cli
     pkgs.bluez
