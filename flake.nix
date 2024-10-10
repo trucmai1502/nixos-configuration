@@ -33,8 +33,8 @@
     };
 
     stylix = {
-      url = "github:danth/stylix";
-      inputs.nixpkgs.follows = "nixpkgs";
+        url = "github:danth/stylix/63426a5";
+        inputs.nixpkgs.follows = "nixpkgs"; 
     };
   };
 
@@ -48,7 +48,7 @@
     hostname = "trcmai-laptop";
     username = "trcmai";
     system = "x86_64-Linux";
-    theme = "catppuccin-mocha";
+    theme = "catppuccin-latte";
 
     nixosConfigurations.${outputs.hostname} = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs outputs;};
