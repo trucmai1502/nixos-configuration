@@ -48,7 +48,7 @@
     hostname = "trcmai-laptop";
     username = "trcmai";
     system = "x86_64-Linux";
-    theme = "catppuccin-latte";
+    theme = "catppuccin-mocha";
 
     nixosConfigurations.${outputs.hostname} = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs outputs;};
