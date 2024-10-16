@@ -11,7 +11,7 @@
     #./polybar.nix
     ./qbittorrent.nix
     ./touchegg.nix
-    ./vscode.nixvim
+    ./vscode.nix
   ];
 
   home.packages = [
