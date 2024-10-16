@@ -10,7 +10,7 @@
 
   stylix = {
     enable = true;
-    image = /home/${outputs.username}/nix-config/hatsukoinonioi.png;
+    image = /home/${outputs.username}/nix-config/122315819.png;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/${outputs.theme}.yaml";
 
