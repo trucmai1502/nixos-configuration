@@ -10,7 +10,7 @@
 
   stylix = {
     enable = true;
-    image = /home/${outputs.username}/nix-config/wallpaper/103167969_p0.png;
+    image = /home/${outputs.username}/nix-config/wallpaper/118188676_p0.jpg;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/${outputs.theme}.yaml";
 
