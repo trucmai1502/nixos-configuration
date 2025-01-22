@@ -9,5 +9,6 @@
     ./fcitx5.nix
     ./fonts.nix
     ./networking.nix
+    ./warp.nix
   ];
 }

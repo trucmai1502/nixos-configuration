@@ -10,7 +10,7 @@
 
   stylix = {
     enable = true;
-    image = ../../../wallpaper/si_ku.jpg;
+    image = ../../../background/908522665.png;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/${global.theme}.yaml";
     fonts = {
@@ -34,7 +34,8 @@
       '';
       size = 24;
     };
-    opacity.terminal = 0.85;
+    opacity.terminal = 0.95;
+    opacity.applications = 0.95;
     targets = {
       grub.enable = false;
       spicetify.enable = false;

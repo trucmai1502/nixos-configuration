@@ -47,7 +47,11 @@
           marksman.enable = true;
           nil_ls.enable = true;
           pyright.enable = true;
-          typst_lsp.enable = true;
+          #typst_lsp.enable = true;
+          tinymist = {
+            enable = true;
+            extraOptions.offset_encoding = "utf-8";
+          };
         };
       };
 
@@ -127,6 +131,7 @@
       treesitter-context.enable = true;
       typst-vim.enable = true;
       which-key.enable = true;
+      neocord.enable = true;
     };
   };
 }

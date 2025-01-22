@@ -60,7 +60,7 @@
       hostname = "trcmai-laptop";
       username = "trcmai";
       system = "x86_64-linux";
-      theme = "catppuccin-mocha";
+      theme = "nord";
     };
   in {
     nixosConfigurations.${global.hostname} = nixpkgs.lib.nixosSystem {
