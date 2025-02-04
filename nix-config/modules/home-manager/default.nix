@@ -23,6 +23,7 @@
     pkgs.obsidian
     pkgs.spotify
     pkgs.qbittorrent
+    pkgs. wineWowPackages.stable
     # pkgs.zen-browser
 
     pkgs.ani-cli
